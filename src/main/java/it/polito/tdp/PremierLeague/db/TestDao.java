@@ -8,15 +8,20 @@ public class TestDao {
 	}
 	
 	public void run() {
+		
+		// prove dao 
+		
 		PremierLeagueDAO dao = new PremierLeagueDAO();
 		System.out.println("Players:");
 //		System.out.println(dao.listAllPlayers());
 		System.out.println("Teams:");
+		System.out.println();
 		System.out.println(dao.listAllTeams());
 		System.out.println("Actions:");
 		System.out.println(dao.listAllActions());
 		System.out.println("Matches:");
 		System.out.println(dao.listAllMatches());
+		
 	}
 
 }
